@@ -1,6 +1,6 @@
 cmake_minimum_required( VERSION 3.22 )
 
-project( hello-world )
+project( count-in-range )
 
 set( sources main.cpp )
 
