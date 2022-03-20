@@ -81,10 +81,12 @@ size_t count_elements_in_ranges(vector<pair<int, int>> ranges)
 
 int main()
 {
-    pair<int, int> range1(2, 4);
-    pair<int, int> range2(3, 6);
-    pair<int, int> range3(8, 9);
-    vector<pair<int, int>> ranges = {range1, range3, range2};
+    pair<int, int> range1(3, 5);
+    pair<int, int> range2(7, 4);
+    pair<int, int> range3(9, 9);
+    pair<int, int> range4(11, 14);
+    pair<int, int> range5(13, 12);
+    vector<pair<int, int>> ranges = {range2, range4, range5, range3, range1};
     std::cout << count_elements_in_ranges(ranges) << std::endl;
 
     return 0;
